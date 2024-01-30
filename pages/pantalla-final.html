@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fin de Juego</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="fin" class="flex-center flex-column">
+            <h1 id="puntajeFinal">0</h1>
+            <form class="formulario-final-container">
+                <h2 id="texto-formulario">Ingresá tu nombre para guardar tu puntaje..</h2>
+                <input type="text" name="name" id="nombreUsuario" placeholder="Ingresá tu nombre">
+                <button class="botones" id="botonGuardarPuntaje" type="submit" onclick="guardarPuntaje(event)" disabled>Guardar</button>
+            </form>
+            <a href="../pages/juego.html" class="botones">Volver a Jugar</a>
+            <a href="../index.html" class="botones">Volver al menú principal</a>
+        </div>
+    </div>
+    <script src="../javascript/pantalla-final.js"></script>
+</body>
+</html>

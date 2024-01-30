@@ -1,0 +1,105 @@
+[
+  {
+    "pregunta": "¿En qué año se produjo la caída de fortaleza La Bastilla de París?",
+    "opcion1": "1792",
+    "opcion2": "1795",
+    "opcion3": "1788",
+    "opcion4": "1789",
+    "respuesta": 4,
+    "info" : "EL 14 de julio de 1789 el pueblo de Francia tomó la fortaleza de la Bastilla dando inicio a una de las revoluciones más importantes de la historia.",
+    "imagen" : "../assets/img/fortaleza-de-la-bastilla.jpg"
+  },
+  {
+    "pregunta":
+        "¿Dónde fue capturado el Rey Luis XVI el 20 de junio de 1791?",
+    "opcion1": "Varennes",
+    "opcion2": "Bayona",
+    "opcion3": "París",
+    "opcion4": "Niza",
+    "respuesta": 1,
+    "info" : "Luis XVI y su familia fueron arrestados por Thomas Falcon Marshall en Varennes en 1971",
+    "imagen" : "../assets/img/captura-luis-xvi.jpg"
+
+  },
+  {
+    "pregunta": "¿En qué año se produjo la Revolución Mexicana?",
+    "opcion1": "1905",
+    "opcion2": "1903",
+    "opcion3": "1910",
+    "opcion4": "1915",
+    "respuesta": 3,
+    "info": "La Revolución mexicana fue un conflicto armado en México que se inició el 20 de noviembre de 1910 y terminó el 1 de diciembre de 1920.",
+    "imagen" : "../assets/img/revolucion-mexicana.jpg"
+  },
+  {
+    "pregunta": "¿Dónde y cuándo se inventó la pólvora?",
+    "opcion1": "En Estados Unidos en el siglo XIX",
+    "opcion2": "En China en el siglo IX",
+    "opcion3": "En Rusia en el siglo XII",
+    "opcion4": "En Francia en el siglo XVII",
+    "respuesta": 2,
+    "info": "La pólvora fue inventada en China, en el siglo IX de nuestra era. Los bizantinos y los árabes la introdujeron en Europa alrededor del 1200.",
+    "imagen" : "../assets/img/invencion-polvora.jpg"
+  },
+  {
+    "pregunta": "¿Qué se conmemora el 20 de noviembre en Argentina?",
+    "opcion1": "Día del respeto a la Divsersidad Cultural",
+    "opcion2": "Día del Trabajador",
+    "opcion3": "Paso a la Inmortalidad del Gral. José de San Martin",
+    "opcion4": "Día de la Soberanía Nacional",
+    "respuesta": 4,
+    "info": "El Día de la Soberanía Nacional se celebra el 20 de noviembre de cada año y recuerda la Batalla de la Vuelta de Obligado que tuvo lugar en 1845.",
+    "imagen" : "../assets/img/soberania-nacional.jpg"
+  },
+  {
+    "pregunta": "¿Quién fue el primer presidente CONSTITUCIONAL argentino?",
+    "opcion1": "Bartolomé Mitre",
+    "opcion2": "Domingo F. Sarmiento",
+      "opcion3": "Justo José de Urquiza",
+    "opcion4": "Santiago Derqui",
+    "respuesta": 3,
+    "info": "Justo José de Urquiza, primer presidente argentino luego de la sanción de la Constitución de 1853.",
+    "imagen" : "../assets/img/justo-jose-de-urquiza.jpg"
+  },
+  {
+    "pregunta": "¿Quién fue el lider del golpe de Estado cubano el 10 de marzo de 1952?",
+    "opcion1": "Carlos Prío Socarrás",
+    "opcion2": "Fulgencio Batista",
+    "opcion3": "Fidel Castro",
+    "opcion4": "Ernesto Guevara",
+    "respuesta": 2,
+    "info": "Fulgencio Batista Zaldívar, al nacer Rubén Zaldívar (Banes, 16 de enero de 1901-Marbella, 6 de agosto de 1973), fue un político, militar y dictador cubano.​​ Fue el presidente constitucional de Cuba de 1940 a 1944 y dictador de 1952 a 1959.",
+    "imagen" : "../assets/img/fulgencio-batista.jpg"
+  },
+  {
+    "pregunta": "¿Con qué nombre en clave se conocía el desembarco de Normandía?",
+    "opcion1": "Operación Führer",
+    "opcion2": "Operación Freedom",
+    "opcion3": "Operación Neptuno",
+    "opcion4": "Operación Overlord",
+    "respuesta": 4,
+    "info": "La batalla de Normandía obtuvo el nombre en clave de Operación Overlord, mientras que los planes que conducían al desembarco recibieron otra denominación secreta: la Operación Neptuno.",
+    "imagen" : "../assets/img/operacion-overlord.jpg"
+  },
+  {
+    "pregunta": "¿Cómo se llamaba el avión que transportó la bomba atómica que se lanzó sobre Hiroshima?",
+    "opcion1": "Little Boy",
+    "opcion2": "Little Wings",
+    "opcion3": "Big Tasty",
+    "opcion4": "Enola Gay",
+    "respuesta": 4,
+    "info": "Enola Gay es el nombre de un avión bombardero Boeing B-29 Superfortress que fue bautizado así en honor a Enola Gay Tibbets, madre de su piloto Paul Tibbets.",
+    "imagen" : "../assets/img/enola-gay.jpg"
+  },
+  {
+    "pregunta": "¿En qué país se inició la primera Revolución Industrial?",
+    "opcion1": "Reino Unido",
+    "opcion2": "Estados Unidos",
+    "opcion3": "Francia",
+    "opcion4": "Alemania",
+    "respuesta": 1,
+    "info": "La Primera Revolución Industrial comenzó en el Reino Unido, concretamente en el año 1760, gracias a los avances científicos que se unieron a una búsqueda de nuevos métodos de producción, extendiéndose posteriormente por el resto de Europa y los Estados Unidos.",
+    "imagen" : "../assets/img/revolucion-industrial.jpg"
+  }
+]
+

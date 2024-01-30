@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/juego.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="juego" class="justify-center flex-column">
+            <div id="info">
+                <div class="info-item">
+                    <p id="textoProgreso" class="textoInfo">
+                        Pregunta
+                    </p>
+                    <div id="barraProgreso">
+                        <div id="barraProgresoLlena"></div>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <p class="textoInfo">
+                        Puntaje
+                    </p>
+                    <h1 class="textoPuntaje" id="puntaje">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <!-- contenedor para las preguntas y sus respectivas opciones -->
+            <h1 id="pregunta">Elija la respuesta correcta.</h1>
+            <div class="pregunta-container">
+                <p class="opcionLetra">A</p>
+                <p class="opcionTexto" data-numero="1">Opcion 1</p>
+            </div>
+            <div class="pregunta-container">
+                <p class="opcionLetra">B</p>
+                <p class="opcionTexto" data-numero="2">Opcion 2</p>
+            </div>
+            <div class="pregunta-container">
+                <p class="opcionLetra">C</p>
+                <p class="opcionTexto" data-numero="3">Opcion 3</p>
+            </div>
+            <div class="pregunta-container">
+                <p class="opcionLetra">D</p>
+                <p class="opcionTexto" data-numero="4">Opcion 4</p>
+            </div>
+        </div>
+    </div>  
+    <script src="../javascript/juego.js"></script>
+</body>
+</body>
+</html>

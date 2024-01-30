@@ -1,0 +1,141 @@
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #56a5eb;
+  margin-top: 1.5rem;
+}
+
+#progressBarFull {
+  height: 3.4rem;
+  background-color: #56a5eb;
+  width: 0%;
+}
+body {
+  color: #fff;
+}
+
+.pregunta-container {
+  display: flex;
+  margin-bottom: 0.4rem;
+  width: 100%;
+  border-radius: 2px;
+  background: rgb(18, 93, 255);
+  font-size: 1.5rem;
+  min-width: 40rem;
+}
+
+.pregunta-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+.opcionLetra {
+  padding: 1rem 1.8rem;
+  color: white;
+}
+
+.opcionTexto{
+  padding: 1rem;
+  width: 100%;
+}
+
+.correcta {
+  background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrecta {
+  background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+
+#info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.opcionTexto {
+  text-align: center;
+}
+
+#barraProgreso {
+  width: 10rem;
+  height: 1.5rem;
+  border: 0.2rem solid rgb(11,223,36);
+  margin-top: 1rem;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+#barraProgresoLlena {
+  height: 100%;
+  background: rgb(11,223,36);
+  width: 0%;
+}
+
+#pregunta{
+  color: rgb(239,184,16);
+}
+.textoInfo{
+  color: rgb(239,184,16);
+}
+.textoPuntaje{
+  color: rgb(239,184,16);
+}
