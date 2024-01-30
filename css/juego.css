@@ -139,3 +139,9 @@ body {
 .textoPuntaje{
   color: rgb(239,184,16);
 }
+
+@media(max-width:767px){
+  .pregunta-container {
+    min-width: unset;
+  }
+}
